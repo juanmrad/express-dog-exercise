@@ -57,6 +57,6 @@ var owners = [
 // DELETE /api/owners/:id/pets/:petId
 
 
-app.listen(3000, function(){
-    console.log('Pets API is now listening on port 3000...');
+app.listen(port, function(){
+    console.log('Pets API is now listening on port '+port+'...');
 })
